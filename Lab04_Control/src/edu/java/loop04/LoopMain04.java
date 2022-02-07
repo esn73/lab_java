@@ -45,6 +45,27 @@ public class LoopMain04 {
 			}
 		}
 		System.out.println("짝수들의 합 = " + sum);
+		
+		
+		
+		System.out.println("-----");
+		System.out.println("1부터 100까지 정수들 중에서 홀수들의 합");  // sum = 1 + 3 + 5 + ... + 97 + 99
+		sum=0;
+		for(int n=1; n<100; n+=2) {
+			sum +=n;
+			
+		}
+		System.out.println("홀수들의 합 = " + sum);
+		
+		
+		sum=0;
+		for(int n=1; n<=100; n++) {
+			if(n%2==1) { //// n이 홀수이면
+				sum += n;
+			}
+		}
+		System.out.println("홀수들의 합 = " + sum);
+		
 	}
 
 	
