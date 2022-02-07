@@ -20,7 +20,7 @@ public class LoopMain05 {
 			System.out.print(i+" ");
 		}
 		
-	
+	 
 		System.out.println("---------");
 		for (int n = 1; n <= 100; n++) {
 			System.out.print(n + " ");  // 숫자를 한 줄에 출력

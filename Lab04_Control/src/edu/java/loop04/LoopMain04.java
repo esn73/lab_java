@@ -66,7 +66,7 @@ public class LoopMain04 {
 		}
 		System.out.println("홀수들의 합 = " + sum);
 		
-	}
+	} 
 
 	
 }
